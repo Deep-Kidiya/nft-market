@@ -1,12 +1,26 @@
+import { React, createContext, useState } from "react";
+import "./App.css";
 
-import './App.css';
+import { Navbar } from "./components";
 
-function App() {
+export const ThemeContext = createContext(null);
+
+const App = () => {
+  const [theme, setTheme] = useState("dark");
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "dark" ? "light" : "dark"));
+  };
+
   return (
-    <div className="App">
-      <h1>hello worl</h1>
-    </div>
+    <ThemeContext.Provider value={{theme, toggleTheme}}>
+      <div className="app" id={theme}>
+        <div className="gradient__bg">
+          <Navbar />
+        </div>
+      </div>
+    </ThemeContext.Provider>
   );
-}
+};
 
 export default App;

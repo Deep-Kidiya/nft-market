@@ -1,8 +1,16 @@
-body {
-  background: #2B2B2B;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
-h1 {
-  color: aqua;
+.app {
+  background: var(--body-bg);
+}
+
+body {
+  font-family: var(--font-family);
 }
 /*# sourceMappingURL=App.css.map */
