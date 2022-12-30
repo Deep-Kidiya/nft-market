@@ -1,7 +1,7 @@
 import { React } from "react";
 import "./App.css";
 
-import { Navbar } from "./components";
+import { Home } from "./Pages";
 
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
   return (
       <div className="app">
         <div className="gradient__bg">
-          <Navbar />
+          <Home />
         </div>
       </div>
   );

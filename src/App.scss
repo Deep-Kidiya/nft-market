@@ -3,10 +3,18 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 
 body {
     background: var(--body-bg);
 font-family: var(--font-family);
+}
+
+.container {
+    padding: 80px 115px;
+    @media (max-width:992px) {
+        padding: 50px 55px;
+    }
 }
