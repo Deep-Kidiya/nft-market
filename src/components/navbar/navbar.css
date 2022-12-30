@@ -22,11 +22,11 @@
   color: var(--color);
 }
 
-.nav-container .nav-logo .dark-logo {
+.nav-container .dark-logo {
   display: var(--none);
 }
 
-.nav-container .nav-logo .ligth-logo {
+.nav-container .ligth-logo {
   display: var(--block);
 }
 /*# sourceMappingURL=navbar.css.map */
