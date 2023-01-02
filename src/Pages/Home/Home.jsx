@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <MagicMashrooms />
-      <How />
+      {/* <MagicMashrooms />
+      <How /> */}
     </div>
   );
 };
