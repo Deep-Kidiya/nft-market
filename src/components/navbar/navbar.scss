@@ -7,14 +7,14 @@
     @media (max-width:992px) {
         padding: 15px 50px;
     }
-    @media (max-width:600px) {
+    @media (max-width:768px) {
         padding: 15px 30px;
     }
 
     
     .nav-logo{
      img {
-        @media (max-width:600px) {
+        @media (max-width:768px) {
             width: 80%;
         }
      }
@@ -125,9 +125,9 @@
             padding: 10px;
             border-radius: 50%;
             border: transparent;
-            box-shadow: var(--outer-shadow);
             align-items: center;
             justify-content: center;
+            font-size: 20px;
             &.active {
                 box-shadow: var(--inner-shadow);
             }
@@ -156,11 +156,10 @@
             box-shadow: var(--inner-shadow);  
         }
         @media (max-width:992px) {
-            box-shadow: var(--outer-shadow);
             padding: 5px;
             font-size: 30px;
         }
-        @media (max-width:600px) {
+        @media (max-width:768px) {
             padding: 5px;
             font-size: 20px;
         }

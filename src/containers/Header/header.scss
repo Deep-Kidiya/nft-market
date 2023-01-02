@@ -1,6 +1,150 @@
 .header-section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    @media (min-width:1400px) {
+        align-items: center;
+    }
+    @media (max-width:768px ) {
+        display: grid;
+    }
     
+    .header-text {
+        margin-right: 30px;
+        width: 50%;
+        @media (max-width:768px) {
+            width: 100%;
+        }
+        .header-title {
+            color: var(--color);
+            font-size: 68px;
+            font-weight: 600;
+            line-height: 75px;  
+            @media (max-width:1120px ) {
+                font-size: 38px;
+                line-height: 45px;
+            }
+            @media (max-width:768px) {
+                font-size: 28px;
+                line-height: 40px;
+            }
+        }
+        .head-pera {
+            padding: 20px 0 0;
+            font-size: var(--h4);
+            line-height: var(--h4-h);
+            font-weight: 400;
+            color: var(--color);
+            @media (max-width:768px) {
+               margin-bottom: 40px;
+            }
+        }
+        .btn {
+            margin: 30px 0;
+        }
+        .usear-numbers {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h2 {
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 44px;
+                color: var(--color);
+                &.number-text {
+                    font-weight: 400;
+                }
+                @media (max-width:1440px) {
+                    font-size: 28px;
+                    line-height: 40px;
+                }
+                @media (max-width:1120px) {
+                    font-size: 22px;
+                    line-height: 40px;
+                }
+            }
+        }
+        .usear-section {
+            @media (max-width:768px) {
+                display: none;
+            }
+        }
+
+    }
+    .header-card {
+        @media (min-width:1400px) {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+        }
+        width: 50%;
+
+        @media (max-width:1120px) {
+            width: 40%;
+        }
+        @media (max-width:768px) {
+            width: 100%;
+        }
+        .head-card {
+            width: 100%;
+            border-radius: 20px;
+            background: var(--card-bg);
+            .card-text {
+                padding: 20px;
+                .card-name {
+                    font-size: var(--h1);
+                    font-weight: 600;
+                    line-height: var(--h1-h);
+                    padding: 0 0 10px;
+                    color: var(--color);
+                }
+                .creater-name {
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    .artist-img {
+                        margin-right: 10px;
+                    }
+                    h4 {
+                        font-size: var(--h4);
+                        line-height: var(--h4-h);
+                        font-weight: 400;
+                        color: var(--color);
+                    }
+                }
+            }
+            .art-img {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+    .btn {
+        margin: 30px 0;
+    }
+    .mobile-section {
+        display: none;
+        @media (max-width:768px ) {
+            display: block;
+        }
+    .usear-numbers {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+            font-size: 34px;
+            font-weight: 700;
+            line-height: 44px;
+            color: var(--color);
+            &.number-text {
+                font-weight: 400;
+            }
+            @media (max-width:1440px) {
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+    }
+    }
 }
