@@ -1,12 +1,13 @@
 import React from "react";
-import { Navbar } from "../../components";
-import { Header } from "../../containers";
+import { MagicMashrooms } from "../../components";
+import { Header, Trendingsection, How } from "../../containers";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Header />
+      <MagicMashrooms />
+      <How />
     </div>
   );
 };

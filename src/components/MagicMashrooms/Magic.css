@@ -1,0 +1,42 @@
+.magic-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(#a353ff00), color-stop(#a353ff00), to(#A259FF)), url(../../assets/MagicMashrooms.png);
+  background: linear-gradient(#a353ff00, #a353ff00, #A259FF), url(../../assets/MagicMashrooms.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.magic-section .magic-container {
+  margin-top: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.magic-section .magic-container .creater-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: var(--body-bg);
+}
+
+.magic-section .magic-container .creater-name .artist-img {
+  margin-right: 10px;
+}
+
+.magic-section .magic-container .creater-name h4 {
+  font-size: var(--h4);
+  line-height: var(--h4-h);
+  font-weight: 400;
+  color: var(--color);
+}
+/*# sourceMappingURL=Magic.css.map */

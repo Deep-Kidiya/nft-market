@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import Cardimg from "../../assets/Image 1.png";
-import Creater from "../../assets/Avatar.svg";
+import Creater from "../../assets/avetar/Avatar.svg";
 import { IoRocketOutline } from "react-icons/io5";
 
 const Header = () => {

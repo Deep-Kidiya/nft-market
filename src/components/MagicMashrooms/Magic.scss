@@ -1,0 +1,29 @@
+.magic-section {
+    background: linear-gradient( #a353ff00, #a353ff00, #A259FF), url(../../assets/MagicMashrooms.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    .magic-container {
+        margin-top: 280px;
+        display: flex;
+
+        .creater-name {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            border-radius: 50px;
+            background: var(--body-bg);
+            .artist-img {
+                margin-right: 10px;
+            }
+            h4 {
+                font-size: var(--h4);
+                line-height: var(--h4-h);
+                font-weight: 400;
+                color: var(--color);
+            }
+        }
+    }
+}
