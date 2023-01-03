@@ -1,0 +1,86 @@
+.how-container {
+
+    .cards {
+        padding: 48px 0;
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        @media (max-width:768px) {
+         grid-template-columns: 1fr ;  
+         gap: 20px;   
+         padding: 30px 0;  
+        }
+
+        .card {
+            padding: 10px 40px 30px;
+            background: var(--card-bg);
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: var(--transition);
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0px 0px 20px 0px  rgba(0, 0, 0, 0.614);
+            }
+            @media (max-width:992px) {
+                padding: 20px;
+            }
+            @media (max-width:768px) {
+             display: flex;
+             align-items: center;
+             justify-content: space-between;   
+            }
+
+            .card-img {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+                img {
+                    width: 60%;
+                    @media (max-width:1440px) {
+                        width: 100%;
+                    }
+                }
+                @media (max-width:768px) {
+                    margin-bottom: 0;
+                    margin-right: 20px;
+                }
+            }
+            h2 {
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 30px;
+                padding: 0 0 10px ;
+                color: var(--color);
+                text-align: center;
+                @media (max-width:992px) {
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+                @media (max-width:768px) {
+                   text-align: start;
+                }
+            }
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+                color: var(--color);
+                text-align: center;
+                @media (max-width:992px) {
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+                @media (max-width:768px) {
+                    text-align: start;
+                 }
+            }
+        }
+
+    }
+
+}

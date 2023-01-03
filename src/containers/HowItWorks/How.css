@@ -1,0 +1,138 @@
+.how-container .cards {
+  padding: 48px 0;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .how-container .cards {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px 0;
+  }
+}
+
+.how-container .cards .card {
+  padding: 10px 40px 30px;
+  background: var(--card-bg);
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.how-container .cards .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.614);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.614);
+}
+
+@media (max-width: 992px) {
+  .how-container .cards .card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .how-container .cards .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.how-container .cards .card .card-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.how-container .cards .card .card-img img {
+  width: 60%;
+}
+
+@media (max-width: 1440px) {
+  .how-container .cards .card .card-img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .how-container .cards .card .card-img {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+}
+
+.how-container .cards .card h2 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 0 0 10px;
+  color: var(--color);
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .how-container .cards .card h2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .how-container .cards .card h2 {
+    text-align: start;
+  }
+}
+
+.how-container .cards .card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: var(--color);
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .how-container .cards .card p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .how-container .cards .card p {
+    text-align: start;
+  }
+}
+/*# sourceMappingURL=How.css.map */

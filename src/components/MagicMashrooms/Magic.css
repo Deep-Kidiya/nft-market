@@ -20,6 +20,12 @@
           justify-content: space-between;
 }
 
+@media (max-width: 992px) {
+  .magic-section .magic-container {
+    margin-top: 80px;
+  }
+}
+
 .magic-section .magic-container .creater-name {
   display: -webkit-box;
   display: -ms-flexbox;
