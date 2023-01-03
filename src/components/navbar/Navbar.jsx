@@ -56,7 +56,7 @@ const Navbar = () => {
             </button>
           </div>
 
-          <button className={navbar ? "burger" : "burger active"}onClick={toggleNav}>
+          <button className={navbar ? "burger" : "burger active"} onClick={toggleNav}>
             {navbar ? <GiHamburgerMenu /> : <GiCrossMark />}
           </button>
           <button className="theme-btn" onClick={() => toggleTheme()}>
