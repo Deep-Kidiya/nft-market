@@ -1,6 +1,6 @@
 .magic-section {
-  background: -webkit-gradient(linear, left top, left bottom, from(#a353ff00), color-stop(#a353ff00), to(#A259FF)), url(../../assets/MagicMashrooms.png);
-  background: linear-gradient(#a353ff00, #a353ff00, #A259FF), url(../../assets/MagicMashrooms.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(#a353ff00), to(#A259FF)), url(../../assets/MagicMashrooms.png);
+  background: linear-gradient(#a353ff00, #A259FF), url(../../assets/MagicMashrooms.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,6 +12,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .magic-section .magic-container .creater-name {
@@ -27,6 +33,7 @@
   padding: 10px 20px;
   border-radius: 50px;
   background: var(--body-bg);
+  width: 151px;
 }
 
 .magic-section .magic-container .creater-name .artist-img {
@@ -38,5 +45,109 @@
   line-height: var(--h4-h);
   font-weight: 400;
   color: var(--color);
+}
+
+.magic-section .magic-container .magic-text h2 {
+  font-size: 51px;
+  line-height: 60px;
+  font-weight: 600;
+  color: var(--color);
+  padding: 30px 0;
+}
+
+@media (max-width: 992px) {
+  .magic-section .magic-container .magic-text h2 {
+    font-size: 38px;
+    line-height: 45px;
+  }
+}
+
+.magic-section .magic-container .magic-text .btn {
+  background: var(--color);
+  color: var(--body-bg);
+}
+
+.magic-section .magic-container .magic-text .btn:hover {
+  border-color: var(--color);
+  background: transparent;
+  color: var(--color);
+}
+
+@media (max-width: 992px) {
+  .magic-section .magic-container .magic-text {
+    width: 100%;
+  }
+}
+
+.magic-section .magic-container .magic-timer {
+  background: #3b3b3b;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .magic-section .magic-container .magic-timer {
+    padding: 20px;
+  }
+}
+
+.magic-section .magic-container .magic-timer h3 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.magic-section .magic-container .magic-timer .magic-clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.magic-section .magic-container .magic-timer .magic-clock .clock-Hours {
+  padding: 0 40px 0 0;
+}
+
+@media (max-width: 768px) {
+  .magic-section .magic-container .magic-timer .magic-clock .clock-Hours {
+    padding: 0 20px 0 0;
+  }
+}
+
+.magic-section .magic-container .magic-timer .magic-clock p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+}
+
+.magic-section .magic-container .magic-timer .magic-clock p.numbers {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.magic-section .magic-container .magic-timer.mobile-timer {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .magic-section .magic-container .magic-timer.mobile-timer {
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .magic-section .magic-container .magic-timer.timer {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Magic.css.map */
