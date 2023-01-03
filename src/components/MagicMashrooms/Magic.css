@@ -57,7 +57,7 @@
   font-size: 51px;
   line-height: 60px;
   font-weight: 600;
-  color: var(--color);
+  color: #fff;
   padding: 30px 0;
 }
 
@@ -69,14 +69,14 @@
 }
 
 .magic-section .magic-container .magic-text .btn {
-  background: var(--color);
-  color: var(--body-bg);
+  background: #fff;
+  color: #000;
 }
 
 .magic-section .magic-container .magic-text .btn:hover {
-  border-color: var(--color);
+  border-color: #fff;
   background: transparent;
-  color: var(--color);
+  color: #fff;
 }
 
 @media (max-width: 992px) {
