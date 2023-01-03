@@ -1,0 +1,106 @@
+.join-section .join-container {
+  padding: 60px;
+  background: var(--card-bg);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .join-section .join-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    background: transparent;
+    padding: 0;
+  }
+}
+
+.join-section .join-container .join-img {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .join-section .join-container .join-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.join-section .join-container .join-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.join-section .join-container .join-img img.img-1 {
+  display: none;
+}
+
+@media (max-width: 1120px) {
+  .join-section .join-container .join-img img.img-1 {
+    display: block;
+  }
+}
+
+@media (max-width: 1120px) {
+  .join-section .join-container .join-img img.img-2 {
+    display: none;
+  }
+}
+
+.join-section .join-container .join-input {
+  width: 50%;
+  margin-left: 80px;
+}
+
+@media (max-width: 1200px) {
+  .join-section .join-container .join-input {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .join-section .join-container .join-input {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.join-section .join-container .join-input h2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 60px;
+  padding: 0 0 10px;
+  color: var(--color);
+}
+
+@media (max-width: 992px) {
+  .join-section .join-container .join-input h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+.join-section .join-container .join-input p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 0 40px;
+  color: var(--color);
+}
+
+@media (max-width: 992px) {
+  .join-section .join-container .join-input p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+/*# sourceMappingURL=join.css.map */

@@ -86,6 +86,12 @@
   }
 }
 
+@media (max-width: 1440px) {
+  .how-container .cards .card .card-img img {
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .how-container .cards .card .card-img {
     margin-bottom: 0;

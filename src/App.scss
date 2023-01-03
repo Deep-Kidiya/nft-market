@@ -134,3 +134,43 @@ h1, h2, h3, h4, h5, h6, p, a {
         line-height: 22px;
     }
 }
+
+.input {
+    form {
+        
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0;
+    border-radius: 20px;
+    @media (max-width:1200px) {
+        display: grid;
+        background: transparent;
+        grid-template-columns: 1fr;
+    }
+    input {
+        background: transparent;
+        padding: 20px;
+        outline: none;
+        border: none;
+        width: 100%;
+        @media (max-width:1200px) {
+            background: var( --input);
+            border-radius: 25px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    }
+    .btn {
+        margin: 0;
+        @media (max-width:1200px) {
+            width: 100%;
+            border-radius: 25px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    }
+}
