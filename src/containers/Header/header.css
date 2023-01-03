@@ -88,6 +88,9 @@
 }
 
 .header-section .header-text .usear-numbers h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 34px;
   font-weight: 700;
   line-height: 44px;
@@ -220,6 +223,9 @@
 }
 
 .header-section .mobile-section .usear-numbers h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 34px;
   font-weight: 700;
   line-height: 44px;

@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <div>
       <Header />
+      <Trendingsection />
       <MagicMashrooms />
       <How />
       <Join />

@@ -47,6 +47,7 @@
             align-items: center;
             justify-content: space-between;
             h2 {
+                display: flex;
                 font-size: 34px;
                 font-weight: 700;
                 line-height: 44px;
@@ -133,6 +134,7 @@
         align-items: center;
         justify-content: space-between;
         h2 {
+            display: flex;
             font-size: 34px;
             font-weight: 700;
             line-height: 44px;

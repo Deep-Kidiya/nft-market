@@ -1,6 +1,7 @@
 import React from 'react'
+import './trending.css'
 
-import { Card } from '../../components'
+
 
 const Trendingsection = () => {
   return (
@@ -10,7 +11,7 @@ const Trendingsection = () => {
             <h2 className='section-title'>Trending Collection</h2>
             <p className='section-pera'>Checkout our weekly updated trending collection.</p>
             <div className='cards'>
-                <Card />
+             
             </div>
         </div>
       </div>
