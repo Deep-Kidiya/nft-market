@@ -85,11 +85,11 @@ const Header = () => {
                 <h2 className="number-text">Total Sale</h2>
               </div>
               <div>
-                <h2> <h2><Number n={100} />k+ </h2>k+ </h2>
+                <h2> <Number n={100} />k+</h2>
                 <h2 className="number-text">Auctions</h2>
               </div>
               <div>
-                <h2> <h2><Number n={240} />k+ </h2>k+ </h2>
+                <h2> <Number n={240} />k+ </h2>
                 <h2 className="number-text">Artists</h2>
               </div>
             </div>

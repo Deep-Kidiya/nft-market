@@ -58,11 +58,16 @@ h1, h2, h3, h4, h5, h6, p, a {
 .section-btn svg {
   font-size: 24px;
   margin-right: 15px;
+  color: var(--secondary);
 }
 
 .section-btn:hover {
   background: var(--secondary);
   border-color: var(--secondary);
+}
+
+.section-btn:hover svg {
+  color: var(--btn-color);
 }
 
 @media (max-width: 992px) {
@@ -237,5 +242,26 @@ h1, h2, h3, h4, h5, h6, p, a {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  color: var(--color);
+}
+
+.card-creater {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: var(--color);
+}
+
+.card-price {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: var(--color);
 }
 /*# sourceMappingURL=App.css.map */
