@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   -webkit-transition: var(--transition);
   transition: var(--transition);
   margin-right: 20px;
-  color: var(--btn-color);
+  color: var(--sction-btn);
   font-size: var(--h4);
   line-height: var(--h4-h);
   font-weight: 600;
@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .section-btn:hover {
   background: var(--secondary);
   border-color: var(--secondary);
+  color: #fff;
 }
 
 .section-btn:hover svg {

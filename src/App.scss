@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     border: 2px solid var(--secondary);
     transition: var(--transition) ;
     margin-right: 20px;
-    color: var(--btn-color);
+    color: var(--sction-btn);
     font-size: var(--h4);
     line-height: var(--h4-h);
     font-weight: 600;
@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     &:hover {
         background: var(--secondary);
         border-color: var(--secondary);
+        color: #fff;
         svg {
             color: var(--btn-color);
         }
