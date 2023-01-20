@@ -201,3 +201,98 @@ h1, h2, h3, h4, h5, h6, p, a {
     color: var(--color);
 }
 
+.animated-button {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 16px;
+    &:hover {
+        em {
+            transform: translateY(-18px);
+            $i: 1;
+            @while $i < 20 {
+                &:nth-child(#{$i}) {
+                    transition-delay: $i / 40 + s;
+                }
+                $i: $i + 1;
+            }
+        }
+    }
+    em {
+        transition: all 0.3s ease;
+        transform: translateY(0px);
+        $i: 1;
+        @while $i < 20 {
+            &:nth-child(#{$i}) {
+                transition-delay: $i / 40 + s;
+            }
+            $i: $i + 1;
+        }
+    }
+    span {
+        position: relative;
+        overflow: hidden;
+        display: block;
+        text-shadow: 0 18px 0 var(--secondary);
+       
+        em {
+            min-width: 5px;
+            display: inline-block;
+            vertical-align: middle;
+            font-style: normal;
+            backface-visibility: hidden;
+            transition: transform 0.3s ease-in-out;
+            transform: translateY(0);
+            .animated-button {
+                position: relative;
+                top: -1px;
+                display: inline-block;
+                vertical-align: middle;
+                line-height: 16px;
+                span {
+                    position: relative;
+                    overflow: hidden;
+                    display: block;
+                    text-shadow: 0 16px 0 var(--secondary);
+                    em {
+                        min-width: 5px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        font-style: normal;
+                        backface-visibility: hidden;
+                        transition: transform 0.3s ease;
+                        transform: translateY(0);   
+                    }
+                }
+            }
+            
+            }
+        }
+    } 
+
+    .animated-btn {
+        &:hover {
+            em {
+                transform: translateY(-18px);
+                $i: 1;
+                @while $i < 20 {
+                    &:nth-child(#{$i}) {
+                        transition-delay: $i / 40 + s;
+                    }
+                    $i: $i + 1;
+                }
+            }
+        }
+        em {
+            transition: all 0.3s ease;
+            transform: translateY(0px);
+            $i: 1;
+            @while $i < 20 {
+                &:nth-child(#{$i}) {
+                    transition-delay: $i / 40 + s;
+                }
+                $i: $i + 1;
+            }
+        }  
+    }

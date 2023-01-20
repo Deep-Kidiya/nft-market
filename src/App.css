@@ -265,4 +265,468 @@ h1, h2, h3, h4, h5, h6, p, a {
   line-height: 22px;
   color: var(--color);
 }
+
+.animated-button {
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 16px;
+}
+
+.animated-button:hover em {
+  -webkit-transform: translateY(-18px);
+          transform: translateY(-18px);
+}
+
+.animated-button:hover em:nth-child(1) {
+  -webkit-transition-delay: 0.025s;
+          transition-delay: 0.025s;
+}
+
+.animated-button:hover em:nth-child(2) {
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+
+.animated-button:hover em:nth-child(3) {
+  -webkit-transition-delay: 0.075s;
+          transition-delay: 0.075s;
+}
+
+.animated-button:hover em:nth-child(4) {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.animated-button:hover em:nth-child(5) {
+  -webkit-transition-delay: 0.125s;
+          transition-delay: 0.125s;
+}
+
+.animated-button:hover em:nth-child(6) {
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+
+.animated-button:hover em:nth-child(7) {
+  -webkit-transition-delay: 0.175s;
+          transition-delay: 0.175s;
+}
+
+.animated-button:hover em:nth-child(8) {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.animated-button:hover em:nth-child(9) {
+  -webkit-transition-delay: 0.225s;
+          transition-delay: 0.225s;
+}
+
+.animated-button:hover em:nth-child(10) {
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.animated-button:hover em:nth-child(11) {
+  -webkit-transition-delay: 0.275s;
+          transition-delay: 0.275s;
+}
+
+.animated-button:hover em:nth-child(12) {
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.animated-button:hover em:nth-child(13) {
+  -webkit-transition-delay: 0.325s;
+          transition-delay: 0.325s;
+}
+
+.animated-button:hover em:nth-child(14) {
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.animated-button:hover em:nth-child(15) {
+  -webkit-transition-delay: 0.375s;
+          transition-delay: 0.375s;
+}
+
+.animated-button:hover em:nth-child(16) {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.animated-button:hover em:nth-child(17) {
+  -webkit-transition-delay: 0.425s;
+          transition-delay: 0.425s;
+}
+
+.animated-button:hover em:nth-child(18) {
+  -webkit-transition-delay: 0.45s;
+          transition-delay: 0.45s;
+}
+
+.animated-button:hover em:nth-child(19) {
+  -webkit-transition-delay: 0.475s;
+          transition-delay: 0.475s;
+}
+
+.animated-button em {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.animated-button em:nth-child(1) {
+  -webkit-transition-delay: 0.025s;
+          transition-delay: 0.025s;
+}
+
+.animated-button em:nth-child(2) {
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+
+.animated-button em:nth-child(3) {
+  -webkit-transition-delay: 0.075s;
+          transition-delay: 0.075s;
+}
+
+.animated-button em:nth-child(4) {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.animated-button em:nth-child(5) {
+  -webkit-transition-delay: 0.125s;
+          transition-delay: 0.125s;
+}
+
+.animated-button em:nth-child(6) {
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+
+.animated-button em:nth-child(7) {
+  -webkit-transition-delay: 0.175s;
+          transition-delay: 0.175s;
+}
+
+.animated-button em:nth-child(8) {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.animated-button em:nth-child(9) {
+  -webkit-transition-delay: 0.225s;
+          transition-delay: 0.225s;
+}
+
+.animated-button em:nth-child(10) {
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.animated-button em:nth-child(11) {
+  -webkit-transition-delay: 0.275s;
+          transition-delay: 0.275s;
+}
+
+.animated-button em:nth-child(12) {
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.animated-button em:nth-child(13) {
+  -webkit-transition-delay: 0.325s;
+          transition-delay: 0.325s;
+}
+
+.animated-button em:nth-child(14) {
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.animated-button em:nth-child(15) {
+  -webkit-transition-delay: 0.375s;
+          transition-delay: 0.375s;
+}
+
+.animated-button em:nth-child(16) {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.animated-button em:nth-child(17) {
+  -webkit-transition-delay: 0.425s;
+          transition-delay: 0.425s;
+}
+
+.animated-button em:nth-child(18) {
+  -webkit-transition-delay: 0.45s;
+          transition-delay: 0.45s;
+}
+
+.animated-button em:nth-child(19) {
+  -webkit-transition-delay: 0.475s;
+          transition-delay: 0.475s;
+}
+
+.animated-button span {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  text-shadow: 0 18px 0 var(--secondary);
+}
+
+.animated-button span em {
+  min-width: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.animated-button span em .animated-button {
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 16px;
+}
+
+.animated-button span em .animated-button span {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  text-shadow: 0 16px 0 var(--secondary);
+}
+
+.animated-button span em .animated-button span em {
+  min-width: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.animated-btn:hover em {
+  -webkit-transform: translateY(-18px);
+          transform: translateY(-18px);
+}
+
+.animated-btn:hover em:nth-child(1) {
+  -webkit-transition-delay: 0.025s;
+          transition-delay: 0.025s;
+}
+
+.animated-btn:hover em:nth-child(2) {
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+
+.animated-btn:hover em:nth-child(3) {
+  -webkit-transition-delay: 0.075s;
+          transition-delay: 0.075s;
+}
+
+.animated-btn:hover em:nth-child(4) {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.animated-btn:hover em:nth-child(5) {
+  -webkit-transition-delay: 0.125s;
+          transition-delay: 0.125s;
+}
+
+.animated-btn:hover em:nth-child(6) {
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+
+.animated-btn:hover em:nth-child(7) {
+  -webkit-transition-delay: 0.175s;
+          transition-delay: 0.175s;
+}
+
+.animated-btn:hover em:nth-child(8) {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.animated-btn:hover em:nth-child(9) {
+  -webkit-transition-delay: 0.225s;
+          transition-delay: 0.225s;
+}
+
+.animated-btn:hover em:nth-child(10) {
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.animated-btn:hover em:nth-child(11) {
+  -webkit-transition-delay: 0.275s;
+          transition-delay: 0.275s;
+}
+
+.animated-btn:hover em:nth-child(12) {
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.animated-btn:hover em:nth-child(13) {
+  -webkit-transition-delay: 0.325s;
+          transition-delay: 0.325s;
+}
+
+.animated-btn:hover em:nth-child(14) {
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.animated-btn:hover em:nth-child(15) {
+  -webkit-transition-delay: 0.375s;
+          transition-delay: 0.375s;
+}
+
+.animated-btn:hover em:nth-child(16) {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.animated-btn:hover em:nth-child(17) {
+  -webkit-transition-delay: 0.425s;
+          transition-delay: 0.425s;
+}
+
+.animated-btn:hover em:nth-child(18) {
+  -webkit-transition-delay: 0.45s;
+          transition-delay: 0.45s;
+}
+
+.animated-btn:hover em:nth-child(19) {
+  -webkit-transition-delay: 0.475s;
+          transition-delay: 0.475s;
+}
+
+.animated-btn em {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.animated-btn em:nth-child(1) {
+  -webkit-transition-delay: 0.025s;
+          transition-delay: 0.025s;
+}
+
+.animated-btn em:nth-child(2) {
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+
+.animated-btn em:nth-child(3) {
+  -webkit-transition-delay: 0.075s;
+          transition-delay: 0.075s;
+}
+
+.animated-btn em:nth-child(4) {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.animated-btn em:nth-child(5) {
+  -webkit-transition-delay: 0.125s;
+          transition-delay: 0.125s;
+}
+
+.animated-btn em:nth-child(6) {
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+
+.animated-btn em:nth-child(7) {
+  -webkit-transition-delay: 0.175s;
+          transition-delay: 0.175s;
+}
+
+.animated-btn em:nth-child(8) {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.animated-btn em:nth-child(9) {
+  -webkit-transition-delay: 0.225s;
+          transition-delay: 0.225s;
+}
+
+.animated-btn em:nth-child(10) {
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.animated-btn em:nth-child(11) {
+  -webkit-transition-delay: 0.275s;
+          transition-delay: 0.275s;
+}
+
+.animated-btn em:nth-child(12) {
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.animated-btn em:nth-child(13) {
+  -webkit-transition-delay: 0.325s;
+          transition-delay: 0.325s;
+}
+
+.animated-btn em:nth-child(14) {
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.animated-btn em:nth-child(15) {
+  -webkit-transition-delay: 0.375s;
+          transition-delay: 0.375s;
+}
+
+.animated-btn em:nth-child(16) {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.animated-btn em:nth-child(17) {
+  -webkit-transition-delay: 0.425s;
+          transition-delay: 0.425s;
+}
+
+.animated-btn em:nth-child(18) {
+  -webkit-transition-delay: 0.45s;
+          transition-delay: 0.45s;
+}
+
+.animated-btn em:nth-child(19) {
+  -webkit-transition-delay: 0.475s;
+          transition-delay: 0.475s;
+}
 /*# sourceMappingURL=App.css.map */

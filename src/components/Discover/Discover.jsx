@@ -20,7 +20,7 @@ const Discover = () => {
               <h2 className="section-title">Discover More NFTs</h2>
               <p className="section-pera">Explore new trending NFTs</p>
             </div>
-            <button className="section-btn title-1">
+            <button className="section-btn title-1 animated-btn">
               <AiOutlineEye /> <span>See All</span>{" "}
             </button>
           </div>

@@ -4,7 +4,6 @@ import "./App.css";
 import { Home } from "./Pages";
 import { Navbar, Footer } from "./components";
 
-
 const App = () => {
 
   return (
@@ -13,7 +12,6 @@ const App = () => {
           <Navbar />
           <Home />
           <Footer />
-
         </div>
       </div>
   );

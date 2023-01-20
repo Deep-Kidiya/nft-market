@@ -39,25 +39,7 @@
             font-weight: 600;
             cursor: pointer;
             transition: var(--transition) ;
-            &:hover {
-                color: var(--secondary);
-                &::after {
-                    left: 0;
-                    width: 100%;
-                }
-            }
-            &::after {
-                position: absolute;
-                content: '';
-                bottom: -12px;
-                left: 50%;
-                width: 0;
-                height: 5px;
-                border-radius: 50px;
-                transition: var(--transition);
-                background: linear-gradient( to right, #A259FF, #6900ff );    
-            }
-
+           
             @media (max-width:1220px) {
                 margin: 0 10px;
             }
@@ -116,6 +98,8 @@
             }
         }
 
+        } 
+          
         }
         .burger {
             display: none;
@@ -166,6 +150,6 @@
 
         }
     }
-}
+    
 
 

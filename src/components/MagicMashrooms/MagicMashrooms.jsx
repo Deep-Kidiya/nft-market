@@ -13,7 +13,7 @@ const MagicMashrooms = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("Jan 30, 2023 00:00:00").getTime();
+    const countdownDate = new Date("feb 12, 2023 00:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

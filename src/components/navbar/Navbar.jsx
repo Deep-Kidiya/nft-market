@@ -28,8 +28,18 @@ const Navbar = () => {
 
   const toggleNav = () => {
     setNavbar(!navbar);
-
   };
+
+  useEffect(() => {
+    const labels = document.querySelectorAll(".animated-button span");
+    labels.forEach((label) => {
+      const characters = label.textContent.split("");
+      label.innerHTML = "";
+      characters.forEach((char, i) => {
+        label.innerHTML += `<em>${char}</em>`;
+      });
+    });
+  }, []);
 
   return (
     <div className="navbar">
@@ -41,25 +51,37 @@ const Navbar = () => {
         </div>
         <div className="nav-btns">
           <div className={navbar ? "nav-links" : "nav-links active"}>
-            <a href="" className="nav-link marker">
-              Marketplace
+            <a href="" className="nav-link marker ">
+              <span className="animated-button">
+                {" "}
+                <span>Marketplace</span>
+              </span>
             </a>
             <a href="" className="nav-link ranking">
-              Rankings
+              <span className="animated-button">
+                {" "}
+                <span>Rankings</span>
+              </span>
             </a>
             <a href="" className="nav-link connect">
-              Connect a wallet
+              <span className="animated-button">
+                {" "}
+                <span>Connect a wallet</span>
+              </span>
             </a>
 
-            <button className="nav-btn">
-              <AiOutlineUser /> <span>Sign Up</span>
+            <button className="nav-btn animated-btn">
+              <AiOutlineUser /> <span className="animated-button"><span>Sign Up</span></span>
             </button>
           </div>
 
-          <button className={navbar ? "burger" : "burger active"} onClick={toggleNav}>
+          <button
+            className={navbar ? "burger" : "burger active"}
+            onClick={toggleNav}
+          >
             {navbar ? <GiHamburgerMenu /> : <GiCrossMark />}
           </button>
-          <button className="theme-btn" onClick={() => toggleTheme()}>
+          <button className="theme-btn animated-btn" onClick={() => toggleTheme()}>
             {icon ? <RxSun /> : <IoMoonOutline />}
           </button>
         </div>
